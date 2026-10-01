@@ -1,0 +1,44 @@
+# --- uv Specific ---
+# uv automatically adds an internal .gitignore inside .venv, but it's safe to exclude globally
+.venv/
+
+# --- Python Caches and Compiled Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Distribution / Packaging ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Environment Variables & Secrets ---
+.env
+.env.*
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- IDEs and OS Files ---
+.vscode/
+.idea/
+.DS_Store
